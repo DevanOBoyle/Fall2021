@@ -1,0 +1,19 @@
+Devan O'Boyle
+CSE 101
+11/28/2021
+
+HW 4: Six degrees of Kevin Bacon
+
+Description: The following program takes in a list of movies and the actors that were
+in them (scraped from IMDB) and takes in the names of two actors. The program will then
+find the shortest path between the two actors based on other actors who starred in the same
+movies as them. If the actors don't have a path between them or if one of the actors isn't
+on the given list, a not present message is printed to the output instead.
+
+Files:
+sixdegrees.cpp: Contains all of the code for this program which consists of a main function and a shortest path function.
+Makefile: Used to compile the program.
+README: Contains the description of the program. What you are currently reading.
+
+Instructions: To build the program, type "make". To delete any compiler generated files, run "make clean".
+To run the program, type "./sixdegrees <INPUT FILE> <OUTPUT FILE>".

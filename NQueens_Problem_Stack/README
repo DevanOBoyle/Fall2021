@@ -1,0 +1,19 @@
+Devan O'Boyle
+CSE101
+10/23/2021
+
+HW2: N Queens Without Recursion
+
+Description: The purpose of this assignment is to fill an nxn chess board with n queens
+such that no two queens can attack each other. For this particular program, some initial
+queens may be provided, and the program then must either find the rest of the remaining queens
+or return 'no solution' if there is no possible combination of queens for those initial queens 
+to fit on the chess board.
+
+Files:
+nqueens.cpp: Contains the main function along with all other functions associated with the program.nqueens.
+Makefile: Used to compile the program.
+README: Contains the description of the program. What you are currently reading.
+
+Instructions: To build the program, type "make". To delete any compiler generated files,
+type "make clean". To run the program, type "./nqueens <input file> <output file>".
